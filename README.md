@@ -54,9 +54,9 @@ The network architecture used for this project was from [Nvidia's end-to-end lea
 
 The final model architecture that was used for this project is from the NVidia’s published paper on end-to-end learning. The architecture contains a total of 9 layers with first 5 convolutional layers followed by fully connect ones.
 
-![network architecture]((https://raw.github.com/aranga81/Behavioral-Cloning/master/output_images/model.png)
+![network architecture](https://raw.github.com/aranga81/Behavioral-Cloning/master/output_images/model.png)
 
-![network architecture]((https://raw.github.com/aranga81/Behavioral-Cloning/master/output_images/parameters.png)
+![network architecture](https://raw.github.com/aranga81/Behavioral-Cloning/master/output_images/parameters.png)
 
 The NVidia paper does not mention about any strategies to reduce overfitting and use of any activation functions in the layers. But for this final model I used “ELU” activation function on each convolutional and fully connected layer. 
 To reduce overfitting I choose to include l2 normalization (0.001) in each of the convolution and fully connected layers.
